@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript show Pasword</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h3>Welcome Back</h3>
+      <p>Start managing your finance faster and better</p>
+      <div style="position: relative; margin-top: 5px">
+        <i
+          class="fa-sharp fa-solid fa-envelope"
+          style="
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+          "
+        ></i>
+        <input
+          id="email"
+          type="email"
+          placeholder="you@example.com"
+          style="
+            outline: none;
+            padding: 5px;
+            padding-left: 25px;
+            padding-right: 20px;
+            border-radius: 10px;
+            width: 100%;
+            border-width: 0;
+          "
+        />
+      </div>
+      <div>
+        <p class="email">hello@email.com</p>
+      </div>
+      <div style="position: relative; margin-top: 5px">
+        <i
+          class="fa-sharp fa-solid fa-lock"
+          style="
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+          "
+        ></i>
+        <input
+          type="password"
+          placeholder="At least 8 Character"
+          id="password"
+          style="
+            outline: none;
+            padding: 5px;
+            padding-left: 25px;
+            padding-right: 30px;
+            border-radius: 10px;
+            border-width: 0;
+            width: 100%;
+          "
+        />
+        <i
+          class="fa-sharp fa-solid fa-eye"
+          id="show"
+          style="
+            position: absolute;
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            transform: translateY(-50%);
+          "
+        ></i>
+      </div>
+      <div class="flex right mt-2 mb-2">
+        <p class="link">Forgot password</p>
+      </div>
+      <a href="https://www.w3schools.com">Visit W3Schools</a>
+      <a href="https://www.google.com">Google</a>
+      <button class="btn btn--login">Login</button>
+      <div class="flex">
+        <div class="line"></div>
+        <p>or</p>
+        <div class="line"></div>
+      </div>
+      <div class="flex gap-2">
+        <button class="btn btn--google">
+          <i class="fa-sharp fa-brands fa-google"></i>
+
+          Google
+        </button>
+        <button class="btn btn--facebook">
+          <i class="fa-sharp fa-brands fa-facebook-f"></i>
+          facebook
+        </button>
+      </div>
+      <div class="flex mt-2">
+        Don't have an account?
+        <a href="signup.html" class="link">Sign Up</a>
+      </div>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
